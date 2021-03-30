@@ -1,0 +1,194 @@
+Methods:
+Why the main method in java static?
+To avoid ambiguity in calling of the constructor.
+How many types of methods can be there?
+4 types:
+- No parameters but has a return type //int sum(){}
+- No return type, no parameter //void sum(){} 
+- With return type and with parameters //int sum(int a, int b){}//
+- With parameters but without a return type //void sum(int a, int b){}
+
+What are static methods and static variables?
+The methods or variables defined as static are shared among all the objects of the class. 
+The static is the part of the class and not of the object. 
+The static variables are stored in the class area, and we do not need to create the object to access such variables. 
+Therefore, static is used in the case, where we need to define variables or methods which are common to all the objects of the class.
+
+What are local variables and instance variables?
+A local variable is typically used inside a method, constructor, or a block and has only local scope. 
+Thus, this variable can be used only within the scope of a block.
+The best benefit of having a local variable is that other methods in the class won’t be even aware of that variable.
+
+An instance variable, is a variable which is bounded to its object itself. 
+These variables are declared within a class, but outside a method. 
+Every object of that class will create it’s own copy of the variable while using it. 
+Thus, any changes made to the variable won’t reflect in any other instances of that class and will be bound to that particular instance only.
+======================================================================
+
+Memory Allocation:
+What are the memory area allocated by the JVM?
+-Method Area - things related to static method, variables, objects blocks etc are stored//static variables can be used in instance area
+-Heap Area - instance variable, method, object, block storage. //instance variables cannot be used in the static area
+-Stack Area - local variable storage
+-PC Area 
+-Native Area
+
+What is classloader?
+Classloader is a subsystem of JVM which is used to load class files. 
+Whenever we run the java program, it is loaded first by the classloader.
+
+How are Java objects stored in memory?
+In Java, all objects are dynamically allocated on Heap. When we only declare a variable of a class type, only a reference is created (memory is not allocated for the object). 
+To allocate memory to an object, we must use new(). So the object is always allocated memory on the heap.
+
+===============================================================================
+
+Polymorphism:
+What is polymorphism?
+Polymorphism is briefly described as “one interface, many implementations”. 
+A characteristic of being able to assign a different meaning or usage to something in different contexts – specifically, to allow an entity such as a variable, a function, or an object to have more than one form
+
+How polymorphism can be achieved in java?
+By Method overloading and Method overriding.
+
+What is Method overLoading?
+In Method Overloading, Methods of the same class shares the same name but each method must have a different number of parameters or parameters having different types and order.
+Method Overloading is to “add” or “extend” more to the method’s behavior.
+It is a compile-time polymorphism.
+The methods must have a different signature.
+It may or may not need inheritance in Method Overloading.
+
+What is difference between overloading and overriding?
+Method overloading increases the readability of the program. 
+Method overriding provides the specific implementation of the method that is already provided by its super class parameter must be different in case of overloading, parameter must be same in case of overriding.
+
+Can main method be overloaded?
+Yes.
+
+===================================================================
+
+Inheritance:
+
+What is inheritance?
+Inheritance is a mechanism by which one object acquires all the properties and behavior of another object of another class. 
+It is used for Code Reusability and Method Overriding. 
+The idea behind inheritance in Java is that you can create new classes that are built upon existing classes. 
+When you inherit from an existing class, you can reuse methods and fields of the parent class. 
+Moreover, you can add new methods and fields in your current class also. 
+Inheritance represents the IS-A relationship which is also known as a parent-child relationship
+
+What are the different types of inheritance?
+Single level, multilevel, hierarchical, multiple, hybrid.
+
+What is the advantages of inheritance?
+Inheritance provides code reusability. 
+The derived class does not need to redefine the method of base class unless it needs to provide the specific implementation of the method.
+Runtime polymorphism cannot be achieved without using inheritance.
+We can simulate the inheritance of classes with the real-time objects which makes OOPs more realistic.
+Inheritance provides data hiding. The base class can hide some data from the derived class by making it private.
+Method overriding cannot be achieved without inheritance. By method overriding, we can give a specific implementation of some basic method contained by the base class.
+
+Why is multiple inheritance not supported in java?
+To reduce the complexity and simplify the language, multiple inheritance is not supported in java. 
+Consider a scenario where A, B, and C are three classes. The C class inherits A and B classes. 
+If A and B classes have the same method and you call it from child class object, there will be ambiguity to call the method of A or B class.
+
+===============================================================================
+
+Constructor:
+
+What are constructors?
+constructor refers to a block of code which is used to initialize an object. 
+It must have the same name as that of the class. 
+Also, it has no return type and it is automatically called when an object is created.
+
+What are the types of constructors?
+Zero argument constructors and parameterized constructors
+Zero argument: one which does not take any inputs. Also known as default constructors.
+In other words, default constructors are the no argument constructors which will be created by default in case you no other constructor is defined by the user. 
+Its main purpose is to initialize the instance variables with the default values. 
+Also, it is majorly used for object creation. 
+Parameterized constructors:
+The parameterized constructor in Java, is the constructor which is capable of initializing the instance variables with the provided values. 
+In other words, the constructors which take the arguments are called parameterized constructors.
+
+What is the difference between a construstor and a method?
+Method: Used to represent the behavior of an object; requires return type; invoked explicitly
+No default method is provided by compiler; Method name may not be same as class name.
+
+Constructor: Used to initialize the satate of an object; do not have retuen type;invoked implicitly
+Default constructor is provided by the compiler if class has none; Constructor name should be same as class name always.
+
+Can a constructor be made static?
+Constructors are invoked only when the object is created, there is no sense to make the constructors static. 
+However, if you try to do so, the compiler will show the compiler error.
+
+Waht is this() keyword?
+The this keyword is a reference variable that refers to the current object. 
+There are the various uses of this keyword in Java. 
+It can be used to refer to current class properties such as instance methods, variable, constructors, etc. 
+It can also be passed as an argument into the methods or constructors. 
+It can also be returned from the method as the current class instance.
+
+Can a reference be assigned to this variable?
+No, this cannot be assigned to any value because it always points to the current class object and this is the final reference in Java. 
+However, if we try to do so, the compiler error will be shown.
+
+What are the main uses for this keyword?
+this can be used to refer to the current class instance variable.
+this can be used to invoke current class method (implicitly)
+this() can be used to invoke the current class constructor.
+this can be passed as an argument in the method call.
+this can be passed as an argument in the constructor call.
+this can be used to return the current class instance from the method.
+
+What is super in java?
+The super keyword in Java is a reference variable that is used to refer to the immediate parent class object. 
+Whenever you create the instance of the subclass, an instance of the parent class is created implicitly which is referred by super reference variable. 
+The super() is called in the class constructor implicitly by the compiler if there is no super or this.
+
+What are the main uses for super keyword?
+super can be used to refer to the immediate parent class instance variable.
+super can be used to invoke the immediate parent class method.
+super() can be used to invoke immediate parent class constructor.
+
+What are the difference between this and super keyword?
+The super keyword always points to the parent class contexts whereas this keyword always points to the current class context.
+The super keyword is primarily used for initializing the base class variables within the derived class constructor whereas this keyword primarily used to differentiate between local and instance variables when passed in the class constructor.
+The super and this must be the first statement inside constructor otherwise the compiler will throw an error.
+
+What is the final()?
+The final keyword in Java is a non-access modifier that applies only to a class, method, or variable.
+
+How is it used with class, variable and method?
+With a class
+When a class is declared as final, then it is disabled from being subclassed i.e., no class can extend the final class.
+With a method
+Any method accompanying the final keyword is restricted from being overridden by the subclass.
+With a variable
+A variable followed by the final keyword is not able to change the value that it holds during the program execution. 
+So, it behaves like a constant
+
+==========================================================================
+
+Method overriding:
+
+What is method overriding?
+Method Overriding in Java allows a subclass to offer a specific implementation of a method that has already been provided by its parent or superclass. 
+Method overriding happens if the subclass method and the Superclass method have:
+The same name
+The same argument
+The same return type
+
+What is the difference between overloading and overriding?
+Method Overloading: increases the readability of the program; occurs within the class;the parameters must be different.
+Method overriding: provides the specific implementation of the method that is already provided by its superclass; 
+occurs in two classes that have IS-A relationship between them; 
+the parameters must be the same
+
+What is upcasting?
+Conversion of a subclass object to super class object.
+
+What are the benefits if upcasting?
+It saves memory and allows to use the parent class methods.
+

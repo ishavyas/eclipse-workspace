@@ -1,0 +1,35 @@
+package trainingAssignment11;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+class HashDemo{
+	Scanner Sc  = new Scanner(System.in);
+	HashSet<Integer> hset = new HashSet<Integer>();	
+	void addElements() {		
+		System.out.println("Enter the Hashset Items:");
+		hset.add(40);
+		hset.add(75);
+		hset.add(28);
+		hset.add(15);
+	}
+	void display() {		
+		System.out.println(hset);
+	}
+	void removeElements() {
+		hset.remove(15);
+		
+	}
+}
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		HashDemo hd = new HashDemo();
+		hd.addElements();
+		hd.display();
+		hd.removeElements();
+		
+	}
+
+}

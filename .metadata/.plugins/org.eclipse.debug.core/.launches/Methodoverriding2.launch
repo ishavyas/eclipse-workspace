@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+        <listEntry value="/trainingAssignment6/src/trainingAssignment6/Methodoverriding2.java"/>
+    </listAttribute>
+    <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+        <listEntry value="1"/>
+    </listAttribute>
+    <booleanAttribute key="org.eclipse.jdt.launching.ATTR_EXCLUDE_TEST_CODE" value="true"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="trainingAssignment6.Methodoverriding2"/>
+    <stringAttribute key="org.eclipse.jdt.launching.MODULE_NAME" value="trainingAssignment6"/>
+    <stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="trainingAssignment6"/>
+</launchConfiguration>

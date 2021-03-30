@@ -1,0 +1,14 @@
+package com.hibinheritance;
+
+public class Cheque {
+	private String cqbank;
+
+	public String getCqbank() {
+		return cqbank;
+	}
+
+	public void setCqbank(String cqbank) {
+		this.cqbank = cqbank;
+	}
+	
+}

@@ -1,0 +1,13 @@
+package com.hibernateinheritance;
+
+public class CreditCard {
+	private String credittype;
+
+	public String getCredittype() {
+		return credittype;
+	}
+
+	public void setCredittype(String credittype) {
+		this.credittype = credittype;
+	}
+}

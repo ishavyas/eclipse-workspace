@@ -1,0 +1,125 @@
+Methods:
+Set of instructions that are written to perform action when called.
+Main method:indicates start of program
+println: prints an output
+
+types of methods:
+user defined: defined by user while writing the code.
+predefined: already defined by the system to be called by user for execution.
+
+There are two main properties of a method
+-return type: returns/tranfers a value from the code block.
+-parameters: parameters to be used in the method. these are optional.
+
+Based on this methods can be of following type: 
+- No parameters but has a return type //int sum(){}
+- No return type, no parameter //void sum(){} 
+- With return type and with parameters //int sum(int a, int b){}//
+- With parameters but without a return type //void sum(int a, int b){}
+
+
+===================================================================================
+
+
+Memory Allocation by JVM:
+
+JVM has 5 memory areas:
+Method Area - things related to static method, variables, objects blocks etc are stored//static variables can be used in instance area
+Heap Area - instance variable, method, object, block storage. //instance variables cannot be used in the static area
+Stack Area - local variable storage
+PC Area 
+Native Area
+class loader - executes a class, shifts it from disc to RAM.
+
+*import packages to use a predefined class.
+use import java.util.*;//for all the predefined packages
+use import java.util.Scanner;//import specific package
+use the package name with the classname while using the class name: java.util.Scanner
+
+
+===============================================================================
+
+Polymorphism: 
+Poly: Many
+Morphism: forms or properties or states
+
+In java polymorphism occurs in two forms:
+- Method overloading 
+- Method overrinding
+Method overloading:
+Using a method name more than once if
+- Different type of prarameters are used in both methods or //void sum(int a, int b){} and void sum(float a, float b){}
+- Different order of paramerters are used in both mehtods or // void sum(int a, float b){} and void sum(float a, int b){}
+- Different number of parameters are used in both methods //void sum(int a, int b, int c){} and void sum(int a, int b){}
+
+======================================================================
+
+Inheritance
+It is a property with which methods, objects properties features etc of a class can be reused by another class.
+The class whose feature/properties are being inherited is known as super class or the base class or the parent class and the class which is inheriting the features is known as sub class or derived class or the child class.
+It supports the concept reusability, i.e if a new class or method needs to be created with code which exists in some other class as well then that code can be reused from that exixting class rather than creating a new one.
+
+Inheritance is of following types:
+Single level - One Parent class and one child class
+Multilevel - one partent class which is inherited by a child class which in turn is inherited by another child class. Super->intermediate->child
+hierarchical - one parent multiple children. One parent class is inherited by more than one children.
+
+=====================================================================================
+
+Constructor
+It is a special type of method or a subroutine which is executed when an object is created.
+Its name is same as that of the class but it does not have a return type. It can be invoked implicitly and explicitly as well.
+All classes have constructors by default if a constructor is not created by a user then java creates one at compile time. However if this is the case then user cannot set initial values for attributes.
+Constructor has only one property and that is parameters itself.
+
+Constructors are of following types:
+- Parameterized: parameters or arguments are passed. All objects will have different values.
+- Zero argument: No parameters or arguments are passed. All the objects will have the same values.
+
+this keyword: 
+- The object created is stored by JVM in the keyword this. 
+- It represents the class objects when there is a requirement of an object this keyword is used.
+- It is mainly used to eliminate the confusion between the same name of a class attribute and a parameter.
+
+super keyword:
+In inheritance when we create an object of a child class, the parent class object is also there. 
+The super keyword holds this parent class object and hence when the object of child class is created, parent class object will also be invoked.
+When an object of child class is executed, the child constructor will be called and then the parent class object is created as well and is executed first. 
+After this the child class object is executed. The JVM by defualt executed the parent class object first as it invokes super at compile time if its not present.
+
+final keyword:
+When final keyword is used in front of a variable then the value of the variable cannot be modified as it acts a constant.
+If a class is declared final then that class cannot be inherited.
+
+Is-A relation: It is checked for confirming inheritence. If this relation exist then only on class can be inherited by a class
+Has-A relation: One class object is being used inside another class without inheritance. 
+
+
+=============================================================================
+
+
+Method Overriding
+It allows the subclass or childclass to provide a specific method implementation, already implemented in the parent or the super class. In othe words same method different implementation in different classes.
+The method , if contains same name, same parameters and same return type in the parent class as well as the child class, is then said to be overridden method.
+Through this runtime polymorphism can be achieved.
+If the method name is same then the object used to invoke the method is used to determine if it is the method in  the parent or the child class, that is being invoked.
+
+Class Casting
+Converting on class object to another class object.
+It is of two types:
+upcasting
+Downcasting.
+
+Upcasting
+Conversion of subclass object to the super class object.
+It saves memory by allowing the superclass object to refernce to the subclass constructor.
+It provides the flexibility of accessing the parent class members but cannot access all the child class members.
+This means that if a method is present in child class but not in parent class or any method that is not overridden cannot be accessed using upcasting.
+
+============================================================================
+
+Abstract concept
+If a class or method has abstract keyword befor it then it can not be instantiated directly.
+Abstract class may or may not contain abstract methods but a method can only be declared abstract if the class is declared abstract.
+These classes can be subclassed, but when subclassed the subclass provides implementations of all the abstract methods present in the super class.
+If it does not implement all the abstract methods then the subclass also needs to be declared abstract.

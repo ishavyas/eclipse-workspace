@@ -1,0 +1,15 @@
+package trainingAssignment11;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class CollectionsDemo {
+
+	public static void main(String[] args) {
+		HashSet<Integer> hset = new HashSet<Integer>();
+		Scanner Sc  = new Scanner(System.in);
+		
+		hset.add(c.nextInt());
+	}
+
+}

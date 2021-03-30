@@ -1,0 +1,13 @@
+package com.hibernateinheritance;
+
+public class CreditCard {
+	private String cctype;
+
+	public String getCctype() {
+		return cctype;
+	}
+
+	public void setCctype(String cctype) {
+		this.cctype = cctype;
+	}
+}

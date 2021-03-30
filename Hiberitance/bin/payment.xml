@@ -1,0 +1,17 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
+    <hibernate-mapping>
+    <class name="com.hibernateinheritance.Payment" table="payment">
+    <id name="payid" column="payid"></id>
+    <discriminator column="paymentmode" type="string" length="50"></discriminator>
+    <property name="amount" column="amount"></property>
+    <subclass name="com.hibernateinheritance.CreditCard" discriminator-value="credit">
+    <property name="cctype" column="cctype"></property>
+    </subclass>
+    <subclass name="com.hibernateinheritance.Cheque" discriminator-value="cheque">
+    <property name="cqbank" column="cqbank"></property>
+    </subclass>    
+    </class>
+    </hibernate-mapping>

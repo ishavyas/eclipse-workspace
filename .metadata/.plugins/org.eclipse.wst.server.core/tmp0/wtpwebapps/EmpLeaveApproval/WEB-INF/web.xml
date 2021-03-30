@@ -1,0 +1,44 @@
+<web-app>
+	<servlet>
+		<servlet-name>empadd</servlet-name>
+		<servlet-class>com.empleaveapproval.AddEmployee</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>empadd</servlet-name>
+		<url-pattern>/addemployee</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>emplogin</servlet-name>
+		<servlet-class>com.empleaveapproval.LoginEmployee</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>emplogin</servlet-name>
+		<url-pattern>/loginemployee</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>mgradd</servlet-name>
+		<servlet-class>com.empleaveapproval.AddManager</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mgradd</servlet-name>
+		<url-pattern>/addmanager</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>mgrlogin</servlet-name>
+		<servlet-class>com.empleaveapproval.LoginManager</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mgrlogin</servlet-name>
+		<url-pattern>/loginmanager</url-pattern>
+	</servlet-mapping>
+	
+	
+
+</web-app>

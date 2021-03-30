@@ -1,0 +1,14 @@
+127.0.0.1 - - [03/Mar/2021:23:31:39 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:31:40 -0500] "GET /AppointmentSchedule/ HTTP/1.1" 200 411
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:31:49 -0500] "GET /AppointmentSchedule/addpatient.html HTTP/1.1" 200 848
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:31:51 -0500] "GET /AppointmentSchedule/patientlogin.html HTTP/1.1" 200 530
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:32:45 -0500] "POST /AppointmentSchedule/loginpatient HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:32:45 -0500] "GET /AppointmentSchedule/patienthome.html HTTP/1.1" 200 155
+127.0.0.1 - - [03/Mar/2021:23:53:52 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:53:53 -0500] "GET /AppointmentSchedule/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:53:56 -0500] "GET /AppointmentSchedule/adddoctor.html HTTP/1.1" 200 900
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:54:55 -0500] "POST /AppointmentSchedule/adddoctor HTTP/1.1" 200 -
+127.0.0.1 - - [03/Mar/2021:23:56:33 -0500] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:56:34 -0500] "GET /AppointmentSchedule/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:56:50 -0500] "GET /AppointmentSchedule/adddoctor.html HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [03/Mar/2021:23:57:21 -0500] "POST /AppointmentSchedule/adddoctor HTTP/1.1" 200 -

@@ -1,0 +1,16 @@
+You're working on the infrastructure for the CodeSignal application, which involves processing code execution requests and returning the results. You've been tasked with creating an interface that accepts asynchronous code execution requests, processes them in order, and returns the results.
+
+Implement the RequestQueue class. This class must have the ability to enqueue an asynchronous request and accept a callback to notify when the request has resolved.
+
+The queue class must also have methods to cancel a request, get the current size of the queue, and process the next item (in FIFO order).
+
+See the class methods and comments in the RequestQueue.js file for more detail; the behavioral test cases in tests.js may also be helpful in understanding the desired behavior.
+
+
+Hints
+
+You are permitted to reference JavaScript language documentation, as long as you do not copy or share any code.
+Your code will be scored by the unit tests in tests.js (this file is visible but read-only) and hiddenTests.js (this file is hidden to prevent hard-coding).
+If it is helpful, you can write your own unit tests in sampleTests.js.
+You can also run your code directly without Mocha by changing the run mode to "Run Custom Script" and modifying the main.sh file.
+[execution time limit] 10 seconds

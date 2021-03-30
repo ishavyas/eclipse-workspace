@@ -1,0 +1,26 @@
+<web-app>
+	
+		<servlet>
+		<servlet-name>emplogin</servlet-name>
+		<servlet-class>com.mvcempmgr.EmpController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>emplogin</servlet-name>
+		<url-pattern>/employeecontroller</url-pattern>
+	</servlet-mapping>
+	
+		<servlet>
+		<servlet-name>mgrlogin</servlet-name>
+		<servlet-class>com.mvcempmgr.MgrController</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>mgrlogin</servlet-name>
+		<url-pattern>/mgrcontroller</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+
+</web-app>

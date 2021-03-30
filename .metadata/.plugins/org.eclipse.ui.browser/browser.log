@@ -1,0 +1,54 @@
+
+Mar 09, 2021 02:23:28.947 NEW SESSION
+Mar 09, 2021 02:23:28.947 [12896:7552:0309/022328.938:ERROR:device_event_log_impl.cc(214)] [02:23:28.938] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 02:23:28.952 [12896:7552:0309/022328.946:ERROR:device_event_log_impl.cc(214)] [02:23:28.946] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 02:35:42.311 [13468:2564:0309/023542.311:ERROR:device_event_log_impl.cc(214)] [02:35:42.311] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 02:35:42.322 [13468:2564:0309/023542.317:ERROR:device_event_log_impl.cc(214)] [02:35:42.317] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 03:03:49.126 [5068:13856:0309/030349.126:ERROR:device_event_log_impl.cc(214)] [03:03:49.126] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 03:03:49.139 [5068:13856:0309/030349.137:ERROR:device_event_log_impl.cc(214)] [03:03:49.137] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 03:14:12.268 [12340:11728:0309/031412.268:ERROR:device_event_log_impl.cc(214)] [03:14:12.268] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 03:14:12.282 [12340:11728:0309/031412.282:ERROR:device_event_log_impl.cc(214)] [03:14:12.282] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 03:25:48.930 [1036:9900:0309/032548.930:ERROR:device_event_log_impl.cc(214)] [03:25:48.930] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 03:25:48.941 [1036:9900:0309/032548.941:ERROR:device_event_log_impl.cc(214)] [03:25:48.941] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 03:29:59.796 [436:3972:0309/032959.796:ERROR:device_event_log_impl.cc(214)] [03:29:59.796] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 03:29:59.809 [436:3972:0309/032959.809:ERROR:device_event_log_impl.cc(214)] [03:29:59.809] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 03:37:21.95 [9128:828:0309/033721.095:ERROR:device_event_log_impl.cc(214)] [03:37:21.095] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 03:37:21.107 [9128:828:0309/033721.106:ERROR:device_event_log_impl.cc(214)] [03:37:21.106] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 09, 2021 22:57:36.629 NEW SESSION
+Mar 09, 2021 22:57:36.630 [2340:14260:0309/225736.615:ERROR:device_event_log_impl.cc(214)] [22:57:36.615] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 22:57:36.912 [2340:14260:0309/225736.626:ERROR:device_event_log_impl.cc(214)] [22:57:36.627] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 09, 2021 23:27:58.25 [5764:11900:0309/232758.025:ERROR:device_event_log_impl.cc(214)] [23:27:58.025] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 09, 2021 23:27:58.35 [5764:11900:0309/232758.035:ERROR:device_event_log_impl.cc(214)] [23:27:58.035] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 10, 2021 16:18:48.603 NEW SESSION
+Mar 10, 2021 16:18:48.603 [10196:11544:0310/161848.595:ERROR:device_event_log_impl.cc(214)] [16:18:48.595] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 16:18:48.688 [10196:11544:0310/161848.606:ERROR:device_event_log_impl.cc(214)] [16:18:48.605] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 16:32:12.63 [9196:13064:0310/163212.063:ERROR:device_event_log_impl.cc(214)] [16:32:12.062] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 16:32:12.77 [9196:13064:0310/163212.074:ERROR:device_event_log_impl.cc(214)] [16:32:12.074] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 10, 2021 16:57:26.471 NEW SESSION
+Mar 10, 2021 16:57:26.471 [6160:13732:0310/165726.469:ERROR:device_event_log_impl.cc(214)] [16:57:26.470] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 16:57:26.480 [6160:13732:0310/165726.478:ERROR:device_event_log_impl.cc(214)] [16:57:26.479] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 17:12:20.689 [6936:12208:0310/171220.689:ERROR:device_event_log_impl.cc(214)] [17:12:20.689] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 17:12:20.711 [6936:12208:0310/171220.711:ERROR:device_event_log_impl.cc(214)] [17:12:20.711] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 10, 2021 20:39:17.633 NEW SESSION
+Mar 10, 2021 20:39:17.633 [8444:8:0310/203916.893:ERROR:device_event_log_impl.cc(214)] [20:39:16.893] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 20:39:17.794 [8444:8:0310/203916.905:ERROR:device_event_log_impl.cc(214)] [20:39:16.904] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 21:44:47.180 [8132:9532:0310/214447.180:ERROR:device_event_log_impl.cc(214)] [21:44:47.179] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 21:44:47.193 [8132:9532:0310/214447.193:ERROR:device_event_log_impl.cc(214)] [21:44:47.192] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 22:02:58.217 [7816:9516:0310/220258.217:ERROR:device_event_log_impl.cc(214)] [22:02:58.216] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 22:02:58.357 [7816:9516:0310/220258.357:ERROR:device_event_log_impl.cc(214)] [22:02:58.357] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 22:13:44.411 [11408:9808:0310/221344.411:ERROR:device_event_log_impl.cc(214)] [22:13:44.411] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 22:13:44.426 [11408:9808:0310/221344.425:ERROR:device_event_log_impl.cc(214)] [22:13:44.426] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 10, 2021 22:17:43.904 NEW SESSION
+Mar 10, 2021 22:17:43.904 [6212:7324:0310/221743.903:ERROR:device_event_log_impl.cc(214)] [22:17:43.897] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 22:17:43.981 [6212:7324:0310/221743.981:ERROR:device_event_log_impl.cc(214)] [22:17:43.975] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+Mar 10, 2021 22:19:58.745 [2236:12032:0310/221958.744:ERROR:device_event_log_impl.cc(214)] [22:19:58.745] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 10, 2021 22:19:58.758 [2236:12032:0310/221958.758:ERROR:device_event_log_impl.cc(214)] [22:19:58.758] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.
+
+Mar 11, 2021 24:38:29.593 NEW SESSION
+Mar 11, 2021 24:38:29.593 [13412:14220:0311/003829.579:ERROR:device_event_log_impl.cc(214)] [00:38:29.579] USB: usb_device_handle_win.cc:1056 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+Mar 11, 2021 24:38:29.707 [13412:14220:0311/003829.592:ERROR:device_event_log_impl.cc(214)] [00:38:29.592] Bluetooth: bluetooth_adapter_winrt.cc:1072 Getting Default Adapter failed.

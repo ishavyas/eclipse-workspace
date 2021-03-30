@@ -1,0 +1,30 @@
+package com.hibernateinheritance;
+
+import org.hibernate.*;
+import org.hibernate.cfg.*;
+
+
+
+public class PaymentMain {
+
+	public static void main(String[] args) {
+		
+		Configuration cf = new Configuration();
+		cf.configure("config.xml");
+		SessionFactory sf = cf.buildSessionFactory();
+		Session s = sf.openSession();
+		Transaction tx = s.beginTransaction();
+		
+		CreditCard cc1 = new CreditCard();
+		cc1.setPayid(2365);
+		cc1.setAmount(10000);
+		cc1.setCctype("Visa");
+		
+		s.save(cc1);
+		tx.commit();
+		s.close();
+		
+
+	}
+
+}

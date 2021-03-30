@@ -1,0 +1,8 @@
+package com.hibernateinheritance;
+
+public class Payment {
+private int payid;
+private int amount;
+private String paymentmode;
+
+}

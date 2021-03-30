@@ -1,0 +1,45 @@
+<web-app>
+	<servlet>
+	<servlet-name>pregister</servlet-name>
+	<servlet-class>com.scheduling.AddPatient</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>pregister</servlet-name>
+	<url-pattern>/addpatient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>plogin</servlet-name>
+	<servlet-class>com.scheduling.LoginPatient</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>plogin</servlet-name>
+	<url-pattern>/loginpatient</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>dregister</servlet-name>
+	<servlet-class>com.scheduling.AddDoctor</servlet-class>
+	</servlet>
+	
+	<servlet-mapping>
+	<servlet-name>dregister</servlet-name>
+	<url-pattern>/adddoctor</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+	<servlet-name>dlogin</servlet-name>
+	<servlet-class>com.scheduling.LoginDoctor</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+	<servlet-name>dlogin</servlet-name>
+	<url-pattern>/logindoctor</url-pattern>
+	</servlet-mapping>
+	
+	
+	
+	
+</web-app>

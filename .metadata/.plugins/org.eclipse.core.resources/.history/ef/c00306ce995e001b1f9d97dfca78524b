@@ -1,0 +1,59 @@
+package trainingAssignment4;
+import java.util.Scanner;
+
+class Area {
+	float side;
+	Scanner sc = new Scanner(System.in);
+	void inpt() {
+		System.out.println("Enter the side: ");
+		side = sc.nextFloat();
+	}
+	
+	void SqrArea() {
+		System.out.println("Area is: " +(side*side));
+	}
+}
+
+class Triangle extends Area{
+	float base;
+	void in() {
+		System.out.println("Enter the base: ");
+		base = sc.nextFloat();
+	}
+	void TriangleArea() {
+		double ar = ((side*base*0.5);
+		System.out.println("Area of Triangle is: " +ar);
+	}
+}
+
+class Rectangle extends Area{
+	float side2;
+	void inp(){
+		System.out.println("Enter the side2: ");
+		side2 = sc.nextFloat();
+	}
+	void RectArea() {
+		System.out.println("The Area of Rectangle is: "+(side*side2));
+	}
+	
+	void CircleArea() {
+		double circar = (side*side*3.14);
+		System.out.println("The Area of Circle is: "+ circar);
+	}
+}
+
+public class Hierarchicalinheritance {
+
+	public static void main(String[] args) {
+		Rectangle rec = new Rectangle();
+		Triangle tri = new Triangle();
+		rec.inpt();
+		rec.SqrArea();
+		tri.in();
+		tri.TriangleArea();
+		rec.inp();
+		rec.CircleArea();
+		rec.RectArea();		
+	}
+
+}

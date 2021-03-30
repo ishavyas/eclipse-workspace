@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.jboss.tools.wtp.server.launchbar.serverAdapterLaunch">
+    <stringAttribute key="artifactClass" value="org.eclipse.wst.server.core.util.WebResource"/>
+    <stringAttribute key="artifactString" value="org.eclipse.jst.jee.server:EmployeeDatabase//"/>
+    <booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+    <stringAttribute key="target.name" value="Tomcat v7.0 Server at localhost"/>
+    <stringAttribute key="wst.launchbar.launchtype" value="artifact"/>
+</launchConfiguration>
