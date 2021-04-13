@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        	<bean id="Ford" class="com.spdiex.Car">
+        		<property name="fuelType" value="Petrol"></property>
+        		<property name="speed" value="80"></property>
+        	</bean>
+        	
+        	<bean id="GreyHound" class="com.spdiex.Bus">
+        		<property name="fuelType" value="Diesel"></property>
+        		<property name="speed" value="75"></property>
+        	</bean>
+        	
+        	<bean id="Airbnb" class="com.spdiex.Travel">
+        		<property name="vehicle">
+        		<ref bean="GreyHound"/>
+        		</property>        		
+        	</bean>
+        	
+        </beans>

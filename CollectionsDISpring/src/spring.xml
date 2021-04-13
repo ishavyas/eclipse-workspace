@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        <bean id="Janet" class="com.codisp.StudentCo">
+        	<property name="stdid" value="2045"></property>
+        	<property name="stdname" value="Janet"></property>
+        	<property name="course">
+        		<map>
+        		<entry key="101">
+        		<value>Java</value>
+        		</entry>
+        		<entry key="102">
+        		<value>C#</value>
+        		</entry>
+        		<entry key="103">
+        		<value>JavaScript</value>
+        		</entry>
+        		<entry key="104">
+        		<value>Python</value>
+        		</entry>
+        		<entry key="105">
+        		<value>Angular</value>
+        		</entry>
+        		</map>
+        	</property>
+        </bean>
+        </beans>

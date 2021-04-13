@@ -1,0 +1,11 @@
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        	<bean id="Janet" class="com.springexample.SchlStudent">
+        		<property name="stdid" value="2569"></property>
+        		<property name="stdname" value="Janet"></property>
+        		<property name="stdsub" value="Maths"></property>
+        		<property name="stdmarks" value="85"></property>
+        	</bean>
+        </beans>

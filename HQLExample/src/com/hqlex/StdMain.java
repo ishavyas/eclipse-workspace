@@ -15,7 +15,7 @@ public class StdMain {
 		Configuration cf = new Configuration();
 		cf.configure("configuration.xml");
 		SessionFactory sf = cf.buildSessionFactory();
-		Session se = sf.openSession();
+		Session se = sf.openSession();		
 		
 		Query qr = se.createQuery("from Student2 s");
 		List li = qr.list();
@@ -24,7 +24,6 @@ public class StdMain {
 			Student2 st = (Student2)i.next();
 			System.out.println(st.getStdid()+" "+ st.getStdname()+" "+ st.getStdsub()+" "+st.getStdmarks());
 		}
-		
 		se.close();
 
 	}

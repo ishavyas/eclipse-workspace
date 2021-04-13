@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-13">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/com.springsource.net.sf.cglib-2.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/com.springsource.org.hibernate-3.2.6.ga.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/commons-collections-3.2.1.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/commons-dbcp-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/commons-pool-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/dom4j-1.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/javax.transaction.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/ojdbc14.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/org.springframework.transaction-3.1.0.release.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-beans-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-context-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-core-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-dao-2.0.6.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-expression-4.2.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-jcl-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-jdbc-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-orm-3.1.2.RELEASE.jar"/>
+	<classpathentry kind="lib" path="D:/Spring/SpringHibernateJdbc/spring-tx-5.3.5.jar"/>
+	<classpathentry kind="lib" path="D:/eclipseworkspace/mysql-connector-java-8.0.23.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

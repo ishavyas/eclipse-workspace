@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        	<!-- <bean id="James" class="com.autowirespring.Employee" autowire="byName"> -->
+        	<!-- <bean id="James" class="com.autowirespring.Employee" autowire="byType"> -->
+        	<!-- <bean id="James" class="com.autowirespring.Employee" autowire="constructor"> -->
+        	<bean id="James" class="com.autowirespring.Employee" autowire="autodetect">
+        	<property name="empid" value="2365"></property>
+        	<property name="empname" value="James"></property>
+        	</bean>
+        	
+        	<bean id="dept" class="com.autowirespring.Department">
+        	<property name="deptid" value="101"></property>
+        	<property name="deptname" value="HR"></property>
+        	<property name="deptempcount" value="25"></property>
+        	</bean>
+        </beans>
