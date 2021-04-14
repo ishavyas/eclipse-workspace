@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>        
+        	<bean id="center" class="com.spdiann.Point">
+        	<property name="x" value="0"/>
+        	<property name="y" value="0"/>
+        	</bean>
+        
+        	<bean id="circle" class="com.spdiann.Circle"></bean>
+        	
+        	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+        	
+        </beans>
