@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+        
+        <beans>
+        	<bean id="savings" class="com.spaopex.Account"/>
+        	<!-- <bean id="auth" class ="com.spaopex.AuthenticationAspect"/>
+        	<bean id="logg" class="com.spaopex.LoggingAspect"/>-->
+        	<bean id="ard" class="com.spaopex.AroundAspect"/>
+        	<bean id="pfb" class="org.springframework.aop.framework.ProxyFactoryBean">
+        		<property name="proxyInterfaces" value="com.spaopex.ChaseBank"/>
+        		<property name="interceptorNames">
+        			<list>
+        				<value>ard</value>
+        				<!--<value>auth</value>
+        				 <value>logg</value> -->
+        			</list>
+        		</property>
+        		<property name="target">
+        			<ref bean="savings"/>
+        		</property>
+        		
+        	</bean>        	
+        	
+        </beans>
